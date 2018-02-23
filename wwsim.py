@@ -18,15 +18,14 @@ to get the next action.
 
 # import the wwagent
 import wwagent
-import agents
 
 def init_world():
-"""Create instance of a wumpus world enviroment and provide the GUI."""
-    pass
+    """Create instance of a wumpus world enviroment and provide the GUI"""
+    x = 0
 
 def populate_world():
-"""Populate the wumpus world with a wumpus, gold, and pits"""
-    pass
+    """Populate the wumpus world with a wumpus, gold, and pits"""
+    x = 0
 
 def main():
     init_world()
