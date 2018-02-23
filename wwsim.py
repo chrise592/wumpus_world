@@ -21,18 +21,18 @@ import wwagent
 
 def init_world():
     """Create instance of a wumpus world enviroment and provide the GUI"""
-    x = 0
+    pass
 
 def populate_world():
     """Populate the wumpus world with a wumpus, gold, and pits"""
-    x = 0
+    pass
 
 def main():
     init_world()
     populate_world()
     while(True):
         # in your inner loop use it thus (just an example, I would probably use a named tuple)
-        percept = [None, None, None, None, None]
+        percept = (None, None, None, None, None)
         wwagent.update(percept) # update the agent with the current percept
         action = wwagent.action() # get the next action to take from the agent
 
